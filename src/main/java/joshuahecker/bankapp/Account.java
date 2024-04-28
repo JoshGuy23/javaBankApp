@@ -7,4 +7,10 @@ public class Account {
     String transactionType;
     String customerName;
     String customerId;
+    
+    Account (String cName, String cID)
+    {
+        customerName = cName;
+        customerId = cID;
+    }
 }
