@@ -87,7 +87,7 @@ public class Account {
         Scanner input = new Scanner(System.in);
         boolean exit = false;
         
-        System.out.println("Welcome, " + customerName + ". (" + customerId + ")");
+        System.out.println("Welcome, " + customerName + ". (" + customerId + ")\n");
         System.out.println("Please select an option:");
         System.out.println("A. View Your Balance");
         System.out.println("B. Make a Deposit");
@@ -98,7 +98,7 @@ public class Account {
         
         while (!exit)
         {
-            System.out.println("Enter your choice:");
+            System.out.println("\nEnter your choice:");
             String choice = input.nextLine().toUpperCase();
             
             switch(choice)
@@ -127,8 +127,8 @@ public class Account {
                 default:
                     System.out.println("Please enter a valid menu option.");
             }
-            
-            System.out.println("Thank you for using this system.");
         }
+        
+        System.out.println("Thank you for using this system.");
     }
 }
