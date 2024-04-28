@@ -127,6 +127,8 @@ public class Account {
                 default:
                     System.out.println("Please enter a valid menu option.");
             }
+            
+            System.out.println("Thank you for using this system.");
         }
     }
 }
