@@ -58,4 +58,13 @@ public class Account {
     {
         System.out.println("Your balance is: $" + balance);
     }
+    
+    double calculateInterest(int yrs)
+    {
+        double rate = 0.0185;
+        
+        System.out.println("The current interest rate is: " + rate * 100 + "%");
+        
+        return (balance * rate * yrs) + balance;
+    }
 }
