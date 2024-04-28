@@ -9,5 +9,6 @@ public class BankApp {
         System.out.println("Please enter your first name.");
         
         String name = input.nextLine();
+        Account user = new Account(name, "A01");
     }
 }
