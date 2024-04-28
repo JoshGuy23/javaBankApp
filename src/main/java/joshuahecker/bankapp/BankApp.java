@@ -10,5 +10,7 @@ public class BankApp {
         
         String name = input.nextLine();
         Account user = new Account(name, "A01");
+        
+        user.showMenu();
     }
 }
